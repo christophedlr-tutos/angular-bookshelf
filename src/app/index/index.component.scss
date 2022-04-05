@@ -1,0 +1,29 @@
+section:first-child {
+  margin-left: 22%;
+  margin-right: 22%;
+  border: 1px outset grey;
+  background-color: grey;
+  text-align: center;
+  padding: 0.2%;
+}
+
+article {
+  margin-top: 1%;
+  border: 1px outset #BBBBBB;
+
+  h2 {
+    margin: 0;
+    padding: 0.2% 0.5%;
+    border-bottom: 1px outset #BBBBBB;
+    background-color: #1170d7;
+    font-size: 1.2rem;
+  }
+
+  div {
+    padding: 0.2% 0.5%;
+
+    &:last-child {
+      font-size: 0.8rem;
+    }
+  }
+}
