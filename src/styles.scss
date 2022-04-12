@@ -12,3 +12,17 @@ footer {
   margin-top: 1%;
   padding: 0.2% 1%;
 }
+
+article.card {
+  margin-bottom: 1%;
+  .card-header {
+    font-size: 1rem !important;
+    color: white;
+  }
+
+  .card-footer {
+    font-size: 0.8rem;
+  }
+}
+
+
