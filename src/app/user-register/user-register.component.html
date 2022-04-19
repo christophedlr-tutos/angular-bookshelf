@@ -1,0 +1,23 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit(registerForm)">
+  <div>
+    <label for="username" class="form-label">Nom d'utilisateur</label>
+    <input type="text" formControlName="username" id="username" class="form-control">
+  </div>
+
+  <div>
+    <label for="email" class="form-label">Addresse e-mail</label>
+    <input type="text" formControlName="email" id="email" class="form-control">
+  </div>
+
+  <div>
+    <label for="password" class="form-label">Mot de passe</label>
+    <input type="password" formControlName="password" id="password" class="form-control">
+  </div>
+
+  <div>
+    <label for="password-confirm" class="form-label">Mot de passe</label>
+    <input type="password" formControlName="password_confirm" id="password-confirm" class="form-control">
+  </div>
+
+  <button type="submit" class="btn btn-primary">S'inscrire</button>
+</form>
