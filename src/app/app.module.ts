@@ -7,6 +7,7 @@ import { IndexComponent } from './index/index.component';
 import { HelpComponent } from './help/help.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserRegisterComponent } from './user-register/user-register.component';
+import {AppRoutingModule} from "./app-routing-module";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UserRegisterComponent } from './user-register/user-register.component';
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
